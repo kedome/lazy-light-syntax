@@ -1,0 +1,31 @@
+.source.php {
+  .entity {
+    &.other {
+      &.attribute-name {
+        color: @blue;
+      }
+      &.inherited-class {
+        color: @blue;
+      }
+    }
+  }
+  .support {
+    &.function {
+      color: @blue;
+      &.builtin {
+        color: @blue;
+      }
+    }
+    &.type {
+      color: @light-lime;
+    }
+    &.constant {
+      color: @blue;
+    }
+    &.class,
+    &.variable,
+    &.other.module {
+      color: @blue;
+    }
+  }
+}
