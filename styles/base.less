@@ -1,4 +1,4 @@
-@import "syntax-variables";
+@import 'syntax-variables';
 
 atom-text-editor, :host {
   background-color: @syntax-background-color;
@@ -24,7 +24,6 @@ atom-text-editor, :host {
   .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
-    padding-right: 8px;
 
     .line-number {
       &.cursor-line {
@@ -91,7 +90,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.operator {
-    color: @syntax-text-color;
+    color: @orange;
   }
 
   &.other.special-method {
@@ -167,9 +166,11 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @light-gray;
     }
 
-    &.string,
-    &.variable,
+    &.string {
+      color: @green;
+    }
     &.parameters,
+    &.variable,
     &.array {
       color: @syntax-text-color;
     }

@@ -2,15 +2,12 @@
   "name": "lazy-light-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "Lazy Atom Light Syntax Theme. (JavaScript, Nunchucks, PHP, Twig, HTML)",
+  "description": "Lazy Atom Light Syntax Theme. (PHP, JavaScript, HTML)",
   "keywords": [
     "light",
     "syntax",
-    "javascript",
-    "nodejs",
-    "nunchucks",
     "php",
-    "twig",
+    "javascript",
     "html"
   ],
   "repository": "https://github.com/kedome/lazy-light-syntax",
